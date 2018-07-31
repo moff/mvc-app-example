@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+composer install &&
+cp .env.example .env &&
+chmod -R 777 app/views-cache
