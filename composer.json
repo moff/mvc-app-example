@@ -4,7 +4,9 @@
   "type": "project",
   "require": {
     "pecee/simple-router": "3.4.5.5",
-    "jenssegers/blade": "^1.1"
+    "jenssegers/blade": "^1.1",
+    "vlucas/phpdotenv": "^2.5",
+    "robmorgan/phinx": "^0.10.5"
   },
   "autoload": {
     "psr-4": {

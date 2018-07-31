@@ -2,6 +2,10 @@
 require '../vendor/autoload.php';
 require_once '../app/blade.php';
 
+// load config values
+$config = new Dotenv\Dotenv(dirname(__DIR__));
+$config->load();
+
 use Pecee\SimpleRouter\SimpleRouter;
 
 SimpleRouter::setDefaultNamespace('\App\Controllers');
