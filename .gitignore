@@ -1,0 +1,19 @@
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+nbproject
+Thumbs.db
+.idea
+
+# NPM packages folder.
+node_modules/
+
+# assets folder
+public/js
+public/css
+
+/vendor/
+composer.lock
