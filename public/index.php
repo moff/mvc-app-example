@@ -6,6 +6,10 @@ require_once '../app/blade.php';
 $config = new Dotenv\Dotenv(dirname(__DIR__));
 $config->load();
 
+// boot Eloquent ORM
+use Core\Database;
+new Database();
+
 use Pecee\SimpleRouter\SimpleRouter;
 
 SimpleRouter::setDefaultNamespace('\App\Controllers');
